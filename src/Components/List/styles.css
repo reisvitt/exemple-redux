@@ -1,0 +1,41 @@
+h2 {
+  margin-left: 20px;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: column;
+
+}
+
+ul li{
+  list-style: none;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #EEEEEE ;
+  
+}
+
+.item-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-list img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: 0.2s;
+
+}
+
+.item-list img:hover {
+  border: 1px solid tomato;
+  border-radius: 10px;
+}
+
+.modal {
+  padding: 20px;
+}

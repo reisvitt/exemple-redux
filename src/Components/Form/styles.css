@@ -1,0 +1,34 @@
+form {
+    margin: 20px
+}
+
+form label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+form input {
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    height: 20px;
+    width: 200px;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+
+form input:focus {
+    width: 300px;
+}
+
+form button {
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    background-color: transparent;
+    height: 25px;
+    transition: 0.2s;
+}
+form button:hover {
+    border-radius: 5px;
+    background-color: #DDFFDC;
+}
